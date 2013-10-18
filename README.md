@@ -8,11 +8,12 @@ This widget has the following properties:
 * __height__: The height of your widget
 
 ### Goals
-The __BasicWidget__ shows how simple is to create a empty widget on Wakanda. 
+The __BasicWidget__ shows how simple is to create an empty widget on Wakanda. 
 
-By default, a < DIV > will be created. 
+By default, when you create a widget a < DIV > domNode will be created at the top level of your widget. 
 
-In this example we are creating a widget with a < SPAN > tag instead. 
+For this example, we are creating a widget with a < SPAN > tag instead :
+BasicWidget.tagname = 'span';
 
 
 ### CSS
