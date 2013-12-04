@@ -1,7 +1,4 @@
-(function() {
-
-	// inheriting from the Studio behavior, so we can manipulate the widget in the Wakanda Studio
-	var BasicWidget = Widget.BasicWidget.inherit(WAF.require('waf-behavior/studio'));
+(function(BasicWidget) {
 
 	// adding the list of attributes available in your property panel
 	BasicWidget.addAttributes([{
@@ -29,6 +26,11 @@
 		//display width and height
 		this.studioCss('width', attributes['data-width']); 	
 		this.studioCss('height', attributes['data-height']); 		  
+	});
+
+});
+
+// For more information, refer to http://doc.wakanda.org/Wakanda0.DevBranch/help/Title/en/page3870.html.studioCss('height', attributes['data-height']); 		  
 	});
 
 })();
