@@ -7,7 +7,7 @@ WAF.define('BasicWidget', function() {
 	var BasicWidget = widget.create('BasicWidget');
     
 	// Creating a basic widget with an SPAN tag instead of the DIV
-	BasicWidget.tagname = 'span';
+	BasicWidget.tagName = 'span';
 
 	return BasicWidget;
 });
